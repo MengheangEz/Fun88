@@ -1,0 +1,125 @@
+.navb-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items{
+    align-items: center;
+    padding: 15px 0;
+}
+.navba{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4B5563;
+    border: #6B7280 solid 2px;
+    transition: 0.2s all;
+}
+.navba:hover{
+    background-color: #4B5563;
+    border: #4B5563 solid 2px;
+    text-decoration: underline;
+    font-size: 125%;
+}
+.main-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: lightblue;
+}
+.navba-line{
+    text-decoration: none;
+    color: #374151;
+    font-size: large;
+}
+.modal-dialog{
+    margin: 0;
+    width: 340px;
+    height: 100vw;
+}
+@media(max-width:300px){
+    .modal-dialog{
+        width: 82px;
+    }
+}
+.modal-content{
+    border-radius: 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #fefefe;
+}
+.modal-body{
+    width: 88%;
+    margin: 0 auto;
+    flex: unset;
+}
+.modal-body .modal-line{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all .2s ease;
+    border-bottom: 1px solid ;
+}
+.modal-body .modal-line:hover{
+    background-color: #6B7280;
+}
+.modal-body .modal-line a:hover{
+    color: white;
+}
+.btn-outline-success{
+    background-color: #EF4444;
+}
+.header-color{
+    background-color: #FEFAE0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.btn-primary{
+    background-color: #505ac7;
+}
+.btn-primary:hover{
+    background-color: white;
+    color:  #505ac7;
+}
+.btn-secondary{
+    background-color: #DD3333;
+}
+.btn-secondary:hover{
+    background-color: white;
+    color:#DD3333;
+}
+.nav-link{
+    background-color: #4B5563;
+    border: #6B7280 solid 1px;
+}
+.back-color{
+    color: #93C5FD;
+    background-color: #6b7280;
+}
+.carousel-indicators [data-bs-target]{
+    width: 5px;
+    height: 5px;
+    background-color: #007aff;
+}
+.border-radius{
+    border-radius: 10px;
+    transition: 0.1s all ease-in-out;
+}
+.border-radius:hover{
+    transform: scale(1.03);
+}
